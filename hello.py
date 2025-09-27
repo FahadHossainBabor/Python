@@ -1,3 +1,6 @@
-#This program prints 'Hello world to the console'
+# ----------------------------------------
+# Python Program: Hello World
+# ----------------------------------------
+# This program prints "Hello World" to the console
 
-print("Hello world")
+print("Hello World")  # Output: Hello World

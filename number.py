@@ -1,20 +1,32 @@
-print(2+3)  #sum
-print(69-9) #sub
-print(2*3)  #mul
-print(5/2)  #div
-print(3//2) #integer division
-print (5%2) #Modulus
-print(3**2) #exponent
+# -----------------------------
+# Basic Arithmetic Operations
+# -----------------------------
+print("Addition: 2 + 3 =", 2 + 3)          # Sum
+print("Subtraction: 69 - 9 =", 69 - 9)    # Subtraction
+print("Multiplication: 2 * 3 =", 2 * 3)   # Multiplication
+print("Division: 5 / 2 =", 5 / 2)         # Division (returns float)
+print("Integer Division: 3 // 2 =", 3 // 2)  # Floor division
+print("Modulus: 5 % 2 =", 5 % 2)          # Remainder
+print("Exponentiation: 3 ** 2 =", 3 ** 2) # Power
 
+# -----------------------------
+# Large Numbers with Underscores
+# -----------------------------
+# Python allows underscores in numbers for readability
 universe_age = 69_000_000_000
-print(universe_age)
+print("Estimated age of the universe:", universe_age)
 
-#multiple assignment
-x,y,z = 1,2,3
+# -----------------------------
+# Multiple Assignment
+# -----------------------------
+x, y, z = 1, 2, 3
+print("x =", x)
+print("y =", y)
+print("z =", z)
 
-print(x)
-print(y)
-print(z)
-
-#no keyword for constant -> ALL CAPITAL -> TREATED AS MAX
+# -----------------------------
+# Constants
+# -----------------------------
+# Python has no true constant keyword, but convention is to use ALL_CAPS
 MAX_CONNECTIONS = 5000
+print("Maximum allowed connections:", MAX_CONNECTIONS)

@@ -1,47 +1,55 @@
-#variable
+# ----------------------------------------
+# Python Variables
+# ----------------------------------------
+# Variables store values in memory. You can update their values anytime.
 
-#the variable 'message' stores a value
-#every variable is associated with a value 
-message = 'Hello python world'
-print(message)
+# Assigning a value to a variable
+message = 'Hello Python world'
+print(message)  # Output: Hello Python world
 
-
-#updating the variable
-#this operation will change the previous value of the variable 'message'
+# Updating the variable
+# This replaces the old value with a new one
 message = 'I am Fahad Hossain Babor'
-print(message)
+print(message)  # Output: I am Fahad Hossain Babor
 
-#namig of variable
-#contain only letters,numbers and underscore
-#start with a letter or an underscore
-#e.g: message_1 , but not 1_message
+# -----------------------------
+# Variable Naming Rules
+# -----------------------------
+# - Can contain letters, numbers, and underscores
+# - Must start with a letter or underscore
+# - Cannot contain spaces
+# - Cannot use Python keywords or function names
+# - Should be descriptive
 
 message_1 = 'Never gonna give you up'
-print(message_1)
+print(message_1)  # Output: Never gonna give you up
 
-#spaces are not allowed in variable name 
-message_2 = 'Never gonna let you down' #this is allowed
-# message 2 ; this is not allowed 
+message_2 = 'Never gonna let you down'
+print(message_2)  # Output: Never gonna let you down
 
-#python keyword and functions are not allowed
+# Invalid examples (uncommenting these will raise errors):
+# 1_message = 'Invalid'      # Cannot start with a number
+# message 2 = 'Invalid'      # Cannot contain spaces
+# print = 'Invalid'          # Cannot overwrite Python function names
 
-#Rule of thumb:
-#variable name should be descriptive
-
-#exercise : 2.1
+# -----------------------------
+# Exercise 2.1: Multi-line String
+# -----------------------------
 my_message = '''
 Never gonna give you up,
 Never gonna let you down,
-Never gonna roll around and dessert you.
-Never gonna make you cry,never gonna say good bye and dessert you.
+Never gonna run around and desert you,
+Never gonna make you cry,
+Never gonna say goodbye and desert you.
 '''
-
 print(my_message)
 
-# exercise:2.2
+# -----------------------------
+# Exercise 2.2: Reassigning Variables
+# -----------------------------
 final_message = 'Why are you gay?'
-print(final_message)
+print(final_message)  # Output: Why are you gay?
 
+# Updating the variable
 final_message = 'Who said I am gay?'
-print(final_message)
-
+print(final_message)  # Output: Who said I am gay?
